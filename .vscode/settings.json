@@ -4,5 +4,11 @@
   "python.linting.flake8Enabled": true,
   "python.linting.enabled": true,
   "python.formatting.provider": "black",
-  "python.linting.flake8Args": ["--max-line-length=88"]
+  "python.linting.flake8Args": [
+    "--max-line-length=88"
+  ],
+  "editor.formatOnSave": true,
+  "html.format.endWithNewline": true,
+  "html.format.indentInnerHtml": true,
+  "html.format.indentHandlebars": true
 }

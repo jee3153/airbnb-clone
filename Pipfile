@@ -12,6 +12,7 @@ django = "*"
 pillow = "*"
 django-countries = "*"
 colorama = "*"
+django-seed = "*"
 
 [requires]
 python_version = "3.8"
