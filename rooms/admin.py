@@ -33,10 +33,10 @@ class RoomAdmin(admin.ModelAdmin):
         ),
         ("Times", {"fields": ("check_in", "check_out", "instant_book")}),
         (
-            "More About the Spcae",
+            "More About the Space",
             {"fields": ("amenities", "facilities", "house_rules")},
         ),
-        ("Spcae", {"fields": ("guests", "beds", "bedrooms", "baths")}),
+        ("Space", {"fields": ("guests", "beds", "bedrooms", "baths")}),
         ("Last Details", {"fields": ("host",)}),
     )
 

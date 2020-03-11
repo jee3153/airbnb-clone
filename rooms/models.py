@@ -6,7 +6,7 @@ from core import models as core_models
 
 class AbstractItem(core_models.TimeStampedModel):
 
-    """  Abstrct Item """
+    """  Abstract Item """
 
     name = models.CharField(max_length=80)
 
